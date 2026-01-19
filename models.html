@@ -63,7 +63,7 @@
       padding-bottom: 1rem;
     }
 
-    /* CARD STYLE (Matches Pitches.html) */
+    /* CARD STYLE */
     .model-container { display: flex; flex-direction: column; gap: 0.5rem; }
 
     .model-item {
@@ -71,12 +71,11 @@
       justify-content: space-between;
       align-items: center;
       padding: 1.2rem;
-      border: 1px solid transparent; /* Hidden border normally */
+      border: 1px solid transparent; 
       border-radius: 4px;
       transition: all 0.2s ease;
     }
 
-    /* Hover effect adds the border to match Pitch cards */
     .model-item:hover {
       border-color: var(--border);
       background: #050505;
@@ -131,6 +130,7 @@
     <h1>Financial Models</h1>
 
     <div class="model-container">
+      
       <div class="model-item">
         <div class="item-left">
           <span class="ticker">VZ</span>
@@ -138,15 +138,7 @@
         </div>
         <a href="https://github.com/SohamBhatia2006/models/raw/main/VZ.xlsx" class="download-btn">Download .xlsx</a>
       </div>
-
-      <div class="model-item">
-        <div class="item-left">
-          <span class="ticker">AAPL</span>
-          <span class="company-name">Apple Inc.</span>
-        </div>
-        <a href="#" class="download-btn">Download .xlsx</a>
       </div>
-    </div>
   </main>
 </body>
 </html>
