@@ -21,15 +21,9 @@
     .model-container { display: flex; flex-direction: column; gap: 0.5rem; }
 
     .model-item {
-      padding: 1.2rem;
       border: 1px solid transparent;
       border-radius: 4px;
       transition: all 0.2s ease;
-    }
-
-    .model-item:hover {
-      border-color: var(--border);
-      background: var(--bg-hover);
     }
 
     /* The row with Ticker and Buttons */
@@ -37,6 +31,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 1.2rem;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+    }
+
+    .model-header:hover {
+      background: var(--bg-hover);
     }
 
     .item-left { display: flex; flex-direction: column; gap: 4px; }
